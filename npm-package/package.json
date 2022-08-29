@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "postinstall": "node -e \"console.log('\\x1b[91m','\\n\\n uni-simple-router 垫脚片，欢迎下载！\\n \\n 开源不易，需要鼓励。去给 uni-read-pages 项目 点个 star 吧 \\n\\n')\"",
+    "postinstall": "",
     "dev": "webpack --watch  --progress --config webpack/webpack.dev.js",
     "build": "webpack --progress --config webpack/webpack.prod.js"
   },
